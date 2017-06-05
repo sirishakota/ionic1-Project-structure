@@ -1,0 +1,12 @@
+$button-bar-button-font-size: 13px !default;
+$button-bar-button-height: 32px !default;
+$button-bar-button-padding: 8px !default;
+$button-bar-button-icon-size: 20px !default;
+$button-default-border: transparent !default;
+$button-default-active-border: null !default;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+ion-view,.pane,.view {
+	background-color: #EFFBF1;
+}
+

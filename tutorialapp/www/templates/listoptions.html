@@ -1,0 +1,39 @@
+<ion-view title="listoptions" id="page7" style="">
+  <ion-content padding="true" class="has-header">
+    <p><input type="text" ng-model="test"></p>
+
+    <ul>
+      <li ng-repeat="x in names | filter:test">
+        {{ x }}
+      </li>
+    </ul>
+
+
+    <ion-list id="listoptions-list7">
+      <ion-item class="item-avatar" id="listoptions-list-item18" ui-sref="menu.javaPage()" style="">
+        <img src="img/DskWTMW3SoODHdiHOp79_java.png">
+        <h2>Java</h2>
+      </ion-item>
+      <ion-item class="item-avatar" id="listoptions-list-item22" ui-sref="menu.javaPage()" style="">
+        <img src="img/DskWTMW3SoODHdiHOp79_java.png">
+        <h2>Java</h2>
+      </ion-item>
+      <ion-item class="item-avatar" id="listoptions-list-item20" ui-sref="menu.pythonPage()" style="">
+        <img src="img/aSBPDIQUSTGgB6Frl098_python.png">
+        <h2>Python</h2>
+      </ion-item>
+      <ion-item class="item-avatar" id="listoptions-list-item24" ui-sref="menu.pythonPage()" style="">
+        <img src="img/aSBPDIQUSTGgB6Frl098_python.png">
+        <h2>Python</h2>
+      </ion-item>
+      <ion-item class="item-avatar" id="listoptions-list-item23" ui-sref="menu.pythonPage()" style="">
+        <img src="img/aSBPDIQUSTGgB6Frl098_python.png">
+        <h2>Python</h2>
+      </ion-item>
+      <ion-item class="item-avatar" id="listoptions-list-item21" ui-sref="menu.clang()" style="">
+        <img src="img/6U0suQlSIqp4Yrn0gQD0_clang.png">
+        <h2>C-Language</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
